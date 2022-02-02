@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=Annie+Use+Your+Telescope&family=Bad+Script&family=Dosis:wght@400;800&family=Indie+Flower&family=Playfair+Display:wght@800&family=Poiret+One&family=Qwitcher+Grypen&family=Roboto:wght@900&family=Tangerine&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=Annie+Use+Your+Telescope&family=Bad+Script&family=Dosis:wght@400;800&family=Indie+Flower&family=Playfair+Display:wght@800&family=Poiret+One&family=Qwitcher+Grypen&family=Roboto:wght@900&family=Tangerine&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=Annie+Use+Your+Telescope&family=Bad+Script&family=Dosis:wght@400;800&family=Indie+Flower&family=Libre+Baskerville:ital@1&family=Playfair+Display:wght@800&family=Poiret+One&family=Qwitcher+Grypen&family=Roboto:wght@100;900&family=Tangerine&family=Yeseva+One&display=swap');
+
+* {
+    text-align: left;
+}
+
+.arreglar-centrado {
+    padding: 250px 100px 100px 400px;
+    color: white;
+}
+
+.titulo {
+    font-family: "Libre Baskerville";
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.Monsterrat {
+    font-family: "Montserrat";
+    font-size: 35px;
+}
+
+body {
+    background: url(https://images.pexels.com/photos/1477166/pexels-photo-1477166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    min-height: fit-content;
+}
+
+.smaller-image {
+    width: 300px;
+    border-radius: 10%;
+}
+
+.aboutme-box {
+    background-color:rgb(41, 40, 46);
+    margin: 100px 150px 50px 150px;
+    padding: 25px 50px 50px 50px;
+    color:whitesmoke;
+}
+
+.experience-box {
+    background-color:rgb(41, 40, 46);
+    width:unset;
+    padding: 5px 75px 50px 75px;
+    color:rgb(220, 219, 235)
+}
+
+.experience-box2 {
+    background-color: whitesmoke;
+    margin: 150px;
+    padding: 50px 50px 50px 50px;
+}
+
+.no-margin {
+    padding: 50px 50px 50px 50px;
+}
+
+.foot-or-head {
+    background-color: rgb(41, 40, 46);
+    padding: 5px 75px 5px 75px;
+    color: whitesmoke;
+}
+
