@@ -77,15 +77,16 @@
 .text-box {
     background-color: white;
     padding: 100px;
+    padding: auto;
     color:rgb(41, 40, 46);
-    width: 100%;
+    width: 50%;
 }
 .picture-box {
     background-image: url(https://lh3.googleusercontent.com/A2RNKoBmC3vxg-99dRvXBx6Ygks4Tz4IvA9dgVTIXaxJ8Jk8Nz5K_vKqKgvFOmha_B3sAkAyV-zZvDk11WTGjwMzEJ2ZyoImp_4UW-NYHgc_RBHNOFUWAVHwAsIBEV-Xonq2yMTHa8E=w2400);
     background-size: cover;
     padding: 100px;
-    width: 100%;
-    height: 300px;
+    width: 50%;
+    height: 500px;
 }
 /* SKILLS  --------------------------------------------------------------------*/
 .top-box {
@@ -96,23 +97,51 @@
 }
 .text-box {
     background-color: whitesmoke;
-    margin:auto;
+    margin: auto;
+    color:rgb(41, 40, 46);
+    width: 50%;
 }
 .image-padding {
     padding: 50px 0px 50px 0px;  
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
 .esen-img {
     width: 1100px;
 }
-.document-work-img {
-    width:405px;
+.container {
+    padding: 0px;
 }
+
+
+.image {
+    position:relative;
+    width:400px;
+}
+.document-work-img {
+    display: block;
+    width: 100%;
+}
+.image-overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color:whitesmoke;
+}
+
+
+
 /* FOOT ----------------------------------------------------------------------------------*/
 .foot {
     background-color: rgb(41, 40, 46);
     padding: 10px 50px;
     color: whitesmoke;
 }
+
+
+
+
 

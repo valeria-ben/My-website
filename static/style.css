@@ -104,14 +104,19 @@
 .image-padding {
     padding: 50px 0px 50px 0px;  
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
 .esen-img {
     width: 1100px;
 }
 .document-work-img {
-    width:405px;
+    width:305px;
+    height:300px;
 }
+.container {
+    padding: 0px;
+}
+
 /* FOOT ----------------------------------------------------------------------------------*/
 .foot {
     background-color: rgb(41, 40, 46);
