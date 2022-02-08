@@ -9,7 +9,7 @@
 }
 /* MENU BAR ---------------------------------------------------------------*/
 .menu-bar {
-    background: rgb(41, 40, 46);;
+    background: #662711;
     text-align: right;
 }
 .fixed-alignment {
@@ -54,12 +54,38 @@
     font-family: Comforter;
     font-size: 60px;
 }
+.quote-font2 {
+    font-family: Comforter;
+    font-size: 50px;
+    text-align: center;
+    color:whitesmoke;
+}
+.subtitulo {
+    font-family: "Roboto";
+    font-size:80px;
+    color: aliceblue;
+}
+.subtitulo-contactme {
+    font-family: "Roboto";
+    font-size:40px;
+    color: aliceblue;
+}
 .background-img {
     background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(https://images.pexels.com/photos/1477166/pexels-photo-1477166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
+}
+.background-img2 {
+    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(https://images.pexels.com/photos/1477166/pexels-photo-1477166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 8vh;
+}
+.background-color {
+    background-color: #F1E6CC;
 }
 .background-box {
     margin: 0px 150px 100px 150px;
@@ -68,16 +94,16 @@
 }
 /* ABOUT ME --------------------------------------------------------------------*/
 .quote {
-    background-color: rgb(41, 40, 46);
+    background-color: rgb(194, 103, 80);
     margin-top: 100px;
     padding: 100px 0px 100px 0px;
     color:whitesmoke;
     text-align: center;
 }
 .text-box {
-    background-color: white;
-    padding: 100px;
-    padding: auto;
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 50px 150px 50px 150px;
     color:rgb(41, 40, 46);
     width: 50%;
 }
@@ -90,39 +116,77 @@
 }
 /* SKILLS  --------------------------------------------------------------------*/
 .top-box {
-    background-color:rgb(41, 40, 46);
-    margin-top: 100px;
-    padding: 50px 150px 100px 150px;
+    background-color:#c59281;
+    margin-top: 50px;
+    padding: 50px 150px 50px 150px;
     color:rgb(220, 219, 235);
 }
-.text-box {
-    background-color: whitesmoke;
-    margin: auto;
-    color:rgb(41, 40, 46);
-    width: 50%;
+.text-box h2 {
+    font-family: "Roboto";
+    font-size:40px;   
 }
-.image-padding {
-    padding: 50px 0px 50px 0px;  
+.esen-padding {
     display: flex;
     justify-content: center; 
 }
 .esen-img {
     width: 1100px;
 }
-.document-work-img {
+.portafolio-text {
+    color:whitesmoke;
+    font-size: 40px;
+}
+/* area de trabajos ------------------------------------------------------------------*/
+.work-text {
+    background-color: #E3B164;
+    margin-top: 100px;
+    padding: 25px 150px 50px 150px;
+    color:rgb(10, 10, 10);
+    text-align: center;
+}
+.work-img {
+    margin: 0;
+    padding: 0;
+}
+.work-img-padding {  
+    display: flex;
+    justify-content: center;
+}
+.document {
     width:305px;
     height:300px;
 }
-.container {
-    padding: 0px;
+/* CONTACT ME ----------------------------------------------------------------------------*/ 
+.contact-background-box {
+    margin: 100px 150px 100px 150px;
+    padding: 60px;
+    align-items: center; 
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://images.pexels.com/photos/1477166/pexels-photo-1477166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
 }
-
+.text {
+    text-decoration: none;
+    color:white;
+}
+.contact {
+    padding: 50px 150px 50px 150px;
+    color:whitesmoke;
+    width: 50%;
+}
+.box {
+    display:flex;
+    padding: 10px;
+}
+.icon {
+    padding-right: 20px;
+}
 /* FOOT ----------------------------------------------------------------------------------*/
 .foot {
     background-color: rgb(41, 40, 46);
     padding: 10px 50px;
     color: whitesmoke;
 }
+
 
 
 
