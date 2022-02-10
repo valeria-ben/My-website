@@ -156,6 +156,10 @@
     width:305px;
     height:300px;
 }
+.reco-chema {
+    text-decoration:underline;
+    color: black;
+}
 /* CONTACT ME ----------------------------------------------------------------------------*/ 
 .contact-background-box {
     margin: 100px 150px 100px 150px;
